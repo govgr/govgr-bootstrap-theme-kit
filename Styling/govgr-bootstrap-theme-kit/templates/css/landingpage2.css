@@ -1,0 +1,19 @@
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+.org_logo_small {
+    width: 211px;
+    height: 57px;
+    margin-left: -15px;
+    background:url('../images/org2_logo.png') no-repeat;
+}

@@ -1,0 +1,67 @@
+// Add additional styles here. For example, overwrite certain styles or add new components.
+// You can use bootstrap's powerful mixins here!
+
+
+header{
+    display: flex;
+    border-bottom: 4px solid;
+    border-image: linear-gradient(358.5deg,#00aeef .09%,#134a86) 1;
+}
+
+footer{
+    display: flex;
+    border-top: 3px solid;
+    border-image: linear-gradient(358.5deg, #044587 .09%,#134a86) 1;
+}
+
+body {
+    font-size:1rem;
+    font-weight: 400;
+}
+
+p {
+    font-size:1.12rem;
+    font-weight: 400;
+}
+
+h1 {
+ font-size:3rem;
+ font-weight: 700;
+}
+
+h2 {
+    font-size:2.25rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size:1.5rem;
+    font-weight: 700;
+}
+
+h4 {
+    font-size:1.18rem;
+    font-weight: 700;
+}
+
+h5 {
+    font-size:0.81rem;
+    font-weight: 700;
+}
+
+h6 {
+    font-size:0.81rem;
+    font-weight: 700;
+}
+
+.logo_govgr{
+    width: 300px;
+    height: 90px;
+    margin-left: -15px;
+    background:url(data:image/svg+xml;base64,#{$govgrLOGO}) no-repeat;
+}
+
+.logo_govgr.logo_small {
+    width: 211px;
+    height: 57px;
+}
