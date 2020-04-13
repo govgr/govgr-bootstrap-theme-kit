@@ -1,6 +1,6 @@
 {
   "name": "govgr-bootstrap-theme-kit",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "A simple starter project to help you get started quickly when building a new web site for gov.gr",
   "repository": "https://github.com/thodoris/govgr-bootstrap-theme-kit",
   "main": "index.js",
