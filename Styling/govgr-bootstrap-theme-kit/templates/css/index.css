@@ -9,5 +9,9 @@ body {
 
 #sticky-footer {
   flex-shrink: none;
+  color: #fff;
+  padding: 15px;
+  background: linear-gradient(315deg,#003476 .09%,#134a86);
+  margin-top: 48px;
+  text-align: center;
 }
-
