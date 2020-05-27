@@ -5,3 +5,6 @@ node_modules/
 .idea/
 dist/
 .history/
+.vscode/
+
+package-lock.json
