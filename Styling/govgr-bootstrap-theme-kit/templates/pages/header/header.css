@@ -1,0 +1,10 @@
+header .toping {
+    padding-top: 35px;
+    margin-bottom: -20px;
+  }
+
+header .borderHeader {
+    border: 0;
+    height: 4px;
+    background:linear-gradient(358.5deg,#00aeef .09%,#134a86) ;
+}
