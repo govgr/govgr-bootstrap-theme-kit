@@ -25,7 +25,7 @@ function buildCss() {
         .pipe(cleanCss())
         .pipe(rename({suffix: '.min'}))
         .pipe(gulp.dest('css/'))
-        .pipe(gulp.dest('templates/css'))
+        .pipe(gulp.dest('examples/css'))
 }
 
 function watcher() {
