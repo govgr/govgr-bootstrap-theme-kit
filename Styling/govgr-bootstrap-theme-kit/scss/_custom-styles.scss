@@ -12,6 +12,7 @@ footer{
 body {
     font-size:1rem;
     font-weight: 400;
+    line-height: 1.43;
 }
 
 p {
@@ -59,4 +60,9 @@ h6 {
 .logo_govgr.logo_small {
     width: 211px;
     height: 57px;
+}
+
+.logo_govgr.logo_xsmall {
+    width: 136px;
+    height: 41px;
 }
