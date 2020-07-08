@@ -57,6 +57,10 @@ h6 {
     background:url(data:image/svg+xml;base64,#{$govgrLOGO}) no-repeat;
 }
 
+a.logo_govgr{
+    display: block;
+}
+
 .logo_govgr.logo_small {
     width: 211px;
     height: 57px;

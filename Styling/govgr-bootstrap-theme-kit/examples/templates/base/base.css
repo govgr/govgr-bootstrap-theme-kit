@@ -1,0 +1,38 @@
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+
+
+header .toping {
+    padding-top: 35px;
+    margin-bottom: -20px;
+  }
+
+header .borderHeader {
+    border: 0;
+    height: 5px;
+    background:linear-gradient(358.5deg,#00aeef .09%,#134a86) ;
+}
+
+footer {
+padding: 15px;
+background: linear-gradient(315deg,#003476 .09%,#134a86);
+background-image: linear-gradient(315deg, rgb(0, 52, 118) 0.09%, rgb(19, 74, 134));
+background-position-x: initial;
+background-position-y: initial;
+background-size: initial;
+background-repeat-x: initial;
+background-repeat-y: initial;
+background-attachment: initial;
+background-origin: initial;
+background-clip: initial;
+background-color: initial;
+text-align: center;
+}
+
+footer p {
+font-size:0.85rem;
+flex-grow: 1;
+}
