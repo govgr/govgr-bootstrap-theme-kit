@@ -1,11 +1,4 @@
-.container {
-    width: auto;
-    max-width: 680px;
-    padding: 0 15px;
-  }
-  
 footer {
-  padding: 15px;
   background: linear-gradient(315deg,#003476 .09%,#134a86);
   background-image: linear-gradient(315deg, rgb(0, 52, 118) 0.09%, rgb(19, 74, 134));
   background-position-x: initial;
@@ -17,10 +10,8 @@ footer {
   background-origin: initial;
   background-clip: initial;
   background-color: initial;
-  text-align: center;
-}
-
-footer p {
+  }
+  
+  footer p {
   font-size:0.85rem;
-  flex-grow: 1;
-}
+  }
