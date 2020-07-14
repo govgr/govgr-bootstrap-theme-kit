@@ -1,0 +1,11 @@
+ /*! defaut button */
+
+.btn {
+    font-size: 1rem;
+    padding: 15px 25px;
+  }
+
+ .noHover{
+    pointer-events: none;
+}
+

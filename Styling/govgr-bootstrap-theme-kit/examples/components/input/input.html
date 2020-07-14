@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="el" class="h-100">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>GOV.GR - Inputs</title>
+        <link rel="shortcut icon" href="../../images/gov_logo_16x16_favicon.png">
+        <!-- Custom GOV.GR theme - This already includes Bootstrap 4 -->
+        <link href="../../css/govgr_bootstrap.min.css" rel="stylesheet">
+
+    </head>
+    <body class="h-100">
+
+        <main role="main" class="flex-shrink-0">
+            <div class="container">
+                <div class="">
+
+                    <div id="input-fields" class="p-4"> 
+                    
+                            <form>
+                                    <div role="group" class="form-group">
+                                        <label for="name" class="d-block">
+                                            Όνομα
+                                        </label>
+                                        <div class="bv-no-focus-ring">
+                                            <input id="name" type="text" placeholder="Συμπληρώστε το ονοματεπώνυμό σας" class="form-control is-valid" value="Θοδωρής Παπαδόπουλος"/>
+                                            <div class="valid-feedback"> Looks good! </div>
+                                        </div>
+                                    </div>
+                              
+                                    <div role="group" class="form-group">
+                                        <label for="email" class="d-block">
+                                            Email
+                                        </label>
+                                        <div class="bv-no-focus-ring">
+                                            <input id="email" type="text" placeholder="π.χ.: example@gov.gr" class="form-control is-invalid"  />
+                                            <div class="invalid-feedback"> Παρακαλούμε συμπληρώστε το email σας. </div>
+                                            
+                                        </div>
+                                    </div>
+                               
+                                    <div role="group" class="form-group">
+                                        <label for="comments" class="d-block form-label">
+                                            Σχόλια
+                                        </label>
+                                        <div class="bv-no-focus-ring">
+                                            <textarea id="comments" placeholder="Γράψτε εδώ..." rows="5" wrap="soft" class="form-control"></textarea>
+                                            
+                                       
+                                        </div>
+                                    </div>
+
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                          Default checkbox
+                                        </label>
+                                      </div>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
+                                        <label class="form-check-label" for="defaultCheck2">
+                                          Disabled checkbox
+                                        </label>
+                                      </div>
+                               
+                            </form>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+
+</html>
