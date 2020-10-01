@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="el" class="h-100">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>GOV.GR - Inputs</title>
+        <link rel="shortcut icon" href="../../images/gov_logo_16x16_favicon.png">
+        <!-- Custom GOV.GR theme - This already includes Bootstrap 4 -->
+        <link href="../../css/govgr_bootstrap.min.css" rel="stylesheet">
+
+        <link href="./input.css" rel="stylesheet">
+
+    </head>
+    <body class="h-100">
+
+        <main role="main" class="flex-shrink-0">
+            <div class="container">
+                <div class="pb-2">
+
+                    <div id="input-fields" class="p-4"> 
+                    
+                            <form>
+                                    <div role="group" class="form-group">
+                                        <label for="name" class="d-block">
+                                            Όνομα
+                                        </label>
+                                        <div>
+                                            <input id="name" type="text" placeholder="Συμπληρώστε το ονοματεπώνυμό σας" class="form-control is-valid" value="Θοδωρής Παπαδόπουλος"/>
+                                            <div class="valid-feedback"> Looks good! </div>
+                                        </div>
+                                    </div>
+                              
+                                    <div role="group" class="form-group">
+                                        <label for="email" class="d-block">
+                                            Email
+                                        </label>
+                                        <div>
+                                            <input id="email" type="text" placeholder="π.χ.: example@gov.gr" class="form-control is-invalid"  />
+                                            <div class="invalid-feedback"> Παρακαλούμε συμπληρώστε το email σας. </div>
+                                        </div>
+                                    </div>
+                               
+                                    <div role="group" class="form-group">
+                                        <label for="comments" class="d-block form-label">
+                                            Σχόλια
+                                        </label>
+                                        <div>
+                                            <textarea id="comments" placeholder="Γράψτε εδώ..." rows="5" wrap="soft" class="form-control"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-check pl-0">
+                                        <input class="form-check-input checkbox-govgr"  type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label checkbox-govgr-label" for="defaultCheck1">
+                                          Default checkbox
+                                        </label>
+                                      </div>
+                                      <div class="form-check pl-0">
+                                        <input class="form-check-input checkbox-govgr" type="checkbox" value="" id="defaultCheck2" disabled>
+                                        <label class="form-check-label checkbox-govgr-label" for="defaultCheck2">
+                                          Disabled checkbox
+                                        </label>
+                                      </div>
+
+                                    <div class="pl-0 py-4">
+                                      <fieldset class="form-group">
+                                        <div class="form-check pl-0">
+                                            <input class="form-check-input radio-govgr" id="input1" value="" type="radio" name="exampleRadiosWithDescription">
+                                            <label for="input1" class="form-check-label radio-govgr-label">
+                                                Υπηρεσίες για τον πολίτη
+                                                <p>Αν έχετε κάποια πρόταση που πιστεύετε πως μπορεί να κάνει καλύτερο το gov.gr, θέλουμε να την
+                                                    ακούσουμε.</p>
+                                            </label>
+                                        </div>
+                                        <div class="form-check pl-0">
+                                            <input class="form-check-input radio-govgr" id="input2" value="" type="radio"  name="exampleRadiosWithDescription">
+                                            <label for="input2" class="form-check-label radio-govgr-label">
+                                                Υπηρεσίες για επιχειρήσεις
+                                                <p>Αν έχετε κάποια πρόταση που πιστεύετε πως μπορεί να κάνει καλύτερο το gov.gr, θέλουμε να την
+                                                    ακούσουμε.</p>
+                                            </label>
+                                        </div>
+                                        <div class="form-check pl-0">
+                                            <input class="form-check-input radio-govgr" id="input3" value="" type="radio" name="exampleRadiosWithDescription">
+                                            <label for="input3" class="form-check-label radio-govgr-label">
+                                                Υπηρεσίες για τρίτους
+                                                <p>Αν έχετε κάποια πρόταση που πιστεύετε πως μπορεί να κάνει καλύτερο το gov.gr, θέλουμε να την
+                                                    ακούσουμε.</p>
+                                            </label>
+                                        </div>
+                                    </fieldset>
+                                </div>
+                               
+                            </form>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+
+</html>
