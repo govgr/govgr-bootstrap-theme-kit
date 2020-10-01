@@ -14,42 +14,33 @@
   <!-- Custom GOV.GR theme - This already includes Bootstrap 4 -->
   <link href="../../css/govgr_bootstrap.min.css" rel="stylesheet">
 
+    <!-- Header and Footer styles -->
+    <link href="../../components/header/header.css" rel="stylesheet">
+    <link href="../../components/footer/footer.css" rel="stylesheet">
+
   <!-- Custom styles for this template -->
 
 </head>
 <body>
 
-<!-- Header Small-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-          data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <!-- <a class="navbar-brand" href="#!">Navbar</a> -->
-  <a href="/" class="navbar-brand"><div class="logo_govgr logo_small"></div></a>
-
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-    <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="#!">Home
-          <span class="sr-only">(current)</span>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#!">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#!">Disabled</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search">
-    </form>
-  </div>
-</nav>
-
+<!-- Header -->
+<header class="bg-primary">
+    <div class="container pb-4 pt-4">
+        <div class="d-flex flex-row justify-content-start py-2">
+            <div class="text-center text-sm-left pl-4 gov-logo-seperator">
+                <a class="logo_govgr logo_small" href="https://gov.gr"></a>
+            </div>
+            <div class="organization-logo ml-4">
+                <a href="https://test.gov.gr"><img src="../../images/org_logo.png" height="35"></a>
+            </div>
+            <div class="d-flex pl-4 justify-content-end flex-nowrap text-nowrap service-name">
+                <a href="" class="text-white text-decoration-none">Title service</a>
+            </div>
+        </div>
+    </div>
+    <div class="borderHeader"></div>
+</header>
+ 
 <div class="container-fluid">
   <div class="row mt-3">
     <div class="col-lg-3 col-md-6">
@@ -545,12 +536,14 @@
 </div>
 
   <!-- Footer -->
-  <footer class="py-5 bg-dark">
+  <footer class="footer mt-auto py-3 bg-primary">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; 2020 GOV.GR</p>
-      
+        <div class="d-flex flex-column justify-content-center pt-2">
+          <p class="text-white font-weight-light text-center flex-grow-1 mb-0 pb-2">Μια υπηρεσία του</p>
+          <div class="mx-auto pb-4 logo_govgr logo_xsmall"></div>
+        </div>
     </div>
-  </footer>
+</footer>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
