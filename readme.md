@@ -1,6 +1,6 @@
 # Bootstrap Theme Kit: Styling/govgr-bootstrap-theme
 
-![](./Styling/govgr-bootstrap-theme-kit/examples/images/logo_govgr_pos_vertical.png)
+![](./Styling/govgr-bootstrap-theme-kit/examples/images/logo_govgr_pos@3x.png){:height="50%" width="50%"}
 
 A project to help you get started quickly when developing a website for GOV.GR using Bootstrap.
 It includes a project structure with a gulp script that builds a custom CSS version of Bootstrap 4, according to the styling guidelines of gov.gr.
