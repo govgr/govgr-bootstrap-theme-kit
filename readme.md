@@ -10,7 +10,7 @@ This allows to customize the default gov.gr bootstrap theme easily, using Sass v
 
 All the neccessary files reside inside the `Styling/govgr-bootstrap-theme-kit` folder.
 
-Example pages and components created using the theme can be found [here](https://govgr.github.io/govgr-bootstrap-theme-kit/Styling/govgr-bootstrap-theme-kit/examples/,"examples")
+Example pages and components created using the theme can be found [here](https://govgr.github.io/govgr-bootstrap-theme-kit/Styling/govgr-bootstrap-theme-kit/examples/ "examples").
 
 ### Default theme customization ###
 If you want to build your own customized version of the GOV.GR bootstrap theme:
