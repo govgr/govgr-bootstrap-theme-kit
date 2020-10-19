@@ -2,13 +2,15 @@
 
 ![](./Styling/govgr-bootstrap-theme-kit/examples/images/logo_govgr_pos.png)
 
-A project to help you get started quickly when developing a website for GOV.GR using Bootstrap.
+A project to help you get started quickly when developing a website for [gov.gr](https://www.gov.gr "Βρείτε τη δημόσια υπηρεσία που θέλετε - gov.gr") using Bootstrap.
 It includes a project structure with a gulp script that builds a custom CSS version of Bootstrap 4, according to the styling guidelines of gov.gr.
 This allows to customize the default gov.gr bootstrap theme easily, using Sass variables. The result will be a theme that you can apply to new and existing sites based on  Bootstrap 4 projects to give them the new gov.gr look. 
 
 ## Getting started
 
 All the neccessary files reside inside the `Styling/govgr-bootstrap-theme-kit` folder.
+
+Example pages and components created using the theme can be found [here](https://govgr.github.io/govgr-bootstrap-theme-kit/Styling/govgr-bootstrap-theme-kit/examples/,"examples")
 
 ### Default theme customization ###
 If you want to build your own customized version of the GOV.GR bootstrap theme:
