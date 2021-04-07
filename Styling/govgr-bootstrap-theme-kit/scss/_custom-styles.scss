@@ -2,7 +2,6 @@
 // You can use bootstrap's powerful mixins here!
 
 
-
 footer{
     
     border-top: 3px solid;
@@ -52,9 +51,11 @@ h6 {
 
 .logo_govgr{
     width: 300px;
-    height: 90px;
+    height: 100px;
     margin-left: -15px;
-    background:url(data:image/svg+xml;base64,#{$govgrLOGO}) no-repeat;
+    background-size:contain;
+    background:url('data:image/svg+xml,#{$govgrLOGO}') no-repeat;
+    background-position: center;
 }
 
 a.logo_govgr{
@@ -62,11 +63,12 @@ a.logo_govgr{
 }
 
 .logo_govgr.logo_small {
-    width: 211px;
-    height: 57px;
+    width: 225;
+    height: 75;
+    
 }
 
 .logo_govgr.logo_xsmall {
-    width: 136px;
-    height: 41px;
+   width: 150;
+   height: 50px;
 }
