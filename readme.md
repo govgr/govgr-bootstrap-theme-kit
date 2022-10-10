@@ -16,12 +16,13 @@ Example pages and components created using the theme can be found [here](https:/
 If you want to build your own customized version of the GOV.GR bootstrap theme:
 
 1. Clone this repo
-2. Run `npm install`
-3. Run `gulp watch`
-4. Open `templates/index.html` in a browser to check the default styling.
-4. Add any custom Bootstrap Sass variables into `scss/_custom-variables.scss`
-5. Add any custom styles into `scss/_custom-styles.scss`. You can use Bootstrap's mixins here.
-6. Repeat steps 4 to 6 until you like what you see :-)
+2. `cd Styling\govgr-bootstrap-theme-kit`
+3. Run `npm install` (careful this seems to need python2 installed on Windows!)
+4. Run `gulp watch` (or node_modules\.bin\gulp watch on Windows)
+5. Open `templates/index.html` in a browser to check the default styling.
+6. Add any custom Bootstrap Sass variables into `scss/_custom-variables.scss`
+7. Add any custom styles into `scss/_custom-styles.scss`. You can use Bootstrap's mixins here.
+8. Repeat steps 4 to 6 until you like what you see :-)
 
 
 ### Default theme customization ###
