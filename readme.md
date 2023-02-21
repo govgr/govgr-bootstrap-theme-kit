@@ -1,5 +1,9 @@
 # Bootstrap Theme Kit: Styling/govgr-bootstrap-theme
 
+> Please note, this project is no longer being maintained.
+>
+> You can visit the [official GOV.GR Design System Guide](https://guide.services.gov.gr/docs/css-library) to get started.
+
 ![](./Styling/govgr-bootstrap-theme-kit/examples/images/logo_govgr_pos.png)
 
 A project to help you get started quickly when developing a website for [gov.gr](https://www.gov.gr "Βρείτε τη δημόσια υπηρεσία που θέλετε - gov.gr") using Bootstrap.
