@@ -14,8 +14,8 @@
   "author": "thodoris",
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "^5.2.3",
-    "jquery": "^3.5.1",
+    "bootstrap": "^5.3.2",
+    "jquery": "^3.7.1",
     "node-sass": "^4.14.1",
     "popper.js": "^1.16.1"
   },
